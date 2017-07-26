@@ -1,4 +1,4 @@
-package com.luxc.TestGitApplication;
+package com.luxc.testgit;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

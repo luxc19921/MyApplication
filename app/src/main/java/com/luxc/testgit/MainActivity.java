@@ -1,4 +1,4 @@
-package com.luxc.TestGitApplication;
+package com.luxc.testgit;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
