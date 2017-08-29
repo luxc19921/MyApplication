@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/rl_title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:background="@color/transparent"
+        android:background="@color/colorAccent"
         android:visibility="gone">
 
         <ImageView
@@ -27,20 +25,11 @@
             android:text="Title"
             android:textColor="@color/colorPrimaryDark" />
     </RelativeLayout>
-    <ListView
-        android:id="@+id/plv"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
 
-    <TextView
-        android:id="@+id/header_title"
+    <ImageView
+        android:id="@+id/header_iv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:gravity="center_horizontal"
-        android:layout_below="@+id/rl_title"
-        android:paddingTop="15dp"
-        android:text="2016-12-28"
-        android:textSize="20sp"/>
-</RelativeLayout>
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+</LinearLayout>
